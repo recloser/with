@@ -19,7 +19,7 @@ type
 
   Cases = object
     x: int
-    case cond: int8
+    case cond: uint8
     of 1:
       case secondCond: bool
       of true: 
